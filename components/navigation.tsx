@@ -24,7 +24,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
             <Image
-              src="./logo.png"
+              src="./Logo.png"
               alt="PELa IT Logo"
               width={120}
               height={50}
