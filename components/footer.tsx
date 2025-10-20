@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Image
-              src="./logo.png"
+              src="./Logo.png"
               alt="PELa IT Logo"
               width={150}
               height={60}
