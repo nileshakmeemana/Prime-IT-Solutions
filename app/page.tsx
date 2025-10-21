@@ -204,12 +204,20 @@ export default function HomePage() {
       Trusted by leading organizations across industries
     </p>
 
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 gap-8">
       {[
         "customer1.png",
         "customer2.png",
         "customer3.png",
         "customer4.png",
+        "customer5.png",
+        "customer6.png",
+        "customer7.png",
+        "customer8.png",
+        "customer9.png",
+        "customer10.webp",
+        "customer11.jpeg",
+        "customer12.jpg",
       ].map((logo, i) => (
         <div
           key={i}

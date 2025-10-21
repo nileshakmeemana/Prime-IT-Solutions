@@ -4,8 +4,16 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer className="bg-secondary text-background border-t border-border">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="relative text-background overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: 'url(/footer.jpg)' }}
+      />
+      <div 
+        className="absolute inset-0 bg-[#b50603]"
+        style={{ opacity: 0.6 }}
+      />
+      <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Image
