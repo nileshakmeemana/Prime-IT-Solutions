@@ -93,8 +93,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-sm text-muted-foreground">info@prime.lk</p>
-                      <p className="text-sm text-muted-foreground">support@prime.lk</p>
+                      <p className="text-sm text-muted-foreground">hello@prime.lk</p>
                     </div>
                   </div>
 
