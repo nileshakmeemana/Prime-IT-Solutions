@@ -134,17 +134,18 @@ export default function HomePage() {
             {businessUnits.map((unit, index) => {
               const Icon = unit.icon
               return (
-                <Card key={index} className="hover:shadow-lg transition-shadow overflow-hidden group relative">
+                <Card key={index} className="hover:shadow-lg transition-shadow overflow-hidden relative text-white">
                   <div
-                    className="absolute inset-0 bg-cover bg-center opacity-0 group-hover:opacity-15 transition-opacity duration-300"
+                    className="absolute inset-0 bg-cover bg-center"
                     style={{ backgroundImage: `url('${unit.bgImage}')` }}
                   />
+                  <div className="absolute inset-0 bg-black/60" />
                   <CardContent className="p-6 relative z-10">
-                    <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                      <Icon className="h-6 w-6 text-primary" />
+                    <div className="h-12 w-12 rounded-lg bg-white/10 flex items-center justify-center mb-4">
+                      <Icon className="h-6 w-6 text-white" />
                     </div>
                     <h3 className="text-lg font-semibold mb-2">{unit.title}</h3>
-                    <p className="text-sm text-muted-foreground leading-relaxed">{unit.description}</p>
+                    <p className="text-sm text-white/90 leading-relaxed">{unit.description}</p>
                   </CardContent>
                 </Card>
               )
