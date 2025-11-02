@@ -19,7 +19,7 @@ export function Navigation() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm" style={{ backgroundColor: '#b50603' }}>
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-sm" style={{ backgroundColor: '#ffffffff' }}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center">
@@ -38,7 +38,7 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-background hover:text-white transition-colors"
+                className="text-sm text-black hover:text-black transition-colors"
               >
                 {link.label}
               </Link>
@@ -46,7 +46,7 @@ export function Navigation() {
           </div>
 
           {/* Mobile Menu Button */}
-          <Button variant="ghost" size="icon" className="md:hidden text-background" onClick={() => setIsOpen(!isOpen)}>
+          <Button variant="ghost" size="icon" className="md:hidden text-black" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
@@ -58,7 +58,7 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block py-2 text-background hover:text-white transition-colors"
+                className="block py-2 text-black hover:text-black transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}

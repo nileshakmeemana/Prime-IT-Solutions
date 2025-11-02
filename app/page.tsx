@@ -64,7 +64,7 @@ export default function HomePage() {
     <main className="min-h-screen">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center bg-secondary text-background overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/Header.jpg')] bg-cover bg-center opacity-10" />
+        <div className="absolute inset-0 bg-[url('/Header.jpg')] bg-cover bg-center opacity-65" />
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">Where Innovation Meets IT Excellence</h1>
