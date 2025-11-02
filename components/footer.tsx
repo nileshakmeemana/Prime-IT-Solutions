@@ -75,7 +75,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary" />
-                <span className="text-sm text-background/80">info@prime.lk</span>
+                <span className="text-sm text-background/80">hello@prime.lk</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 text-primary" />
@@ -91,7 +91,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-sm text-background/60">
-            © {new Date().getFullYear()} PrimeIT Solutions Private Limited. All rights reserved.
+            © {new Date().getFullYear()} Prime IT Solutions Private Limited. All rights reserved.
           </p>
         </div>
       </div>

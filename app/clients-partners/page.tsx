@@ -49,9 +49,9 @@ export default function ClientsPartnersPage() {
                     "customer7.png",
                     "customer8.png",
                     "customer9.png",
-                    "customer10.webp",
-                    "customer11.jpeg",
-                    "customer12.jpg",
+                    "customer10.png",
+                    "customer11.png",
+                    "customer12.png",
                   ].map((logo, i) => (
                     <Card
                       key={i}
@@ -105,10 +105,10 @@ export default function ClientsPartnersPage() {
                   {[
                     "logo1.png",
                     "logo2.png",
-                    "logo3.jpg",
+                    "logo3.png",
                     "logo4.png",
                     "logo5.png",
-                    "logo6.jpg",
+                    "logo6.png",
                     "logo7.png",
                     "logo8.png",
                     "logo9.png",

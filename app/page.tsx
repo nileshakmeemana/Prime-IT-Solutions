@@ -51,14 +51,6 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      quote:
-        "Prime IT Solutions showed professionalism and outstanding developer efficiency. Any questions and problems, arising during the development cycle, were attended to by Prime specialists in a timely fashion leaving no unresolved issues.Prime team always remained responsive, demonstrated great communicative skills and ensured smooth interaction throughout all development and implementation stages, suggesting articulate and consistent decisions and viable solutions for our project.Prime ensured fast finalization of our project and fully met our expectations, concerning the time to bring the new features to our clients. We won't hesitate to turn to Prime services again and hope for further fruitful collaboration.",
-      author: "Ruwan Weerasuriya",
-      position: "Air Resources Management Center, Sri Lanka",
-      company: "Air Resources Management Center, Sri Lanka",
-      logo: "/Test1.jpeg",
-    },
-    {
       quote: "Prime IT Solutions showed professionalism and outstanding developer efficiency. Any questions and problems, arising during the development cycle, were attended to by Prime specialists in a timely fashion leaving no unresolved issues.Prime team always remained responsive, demonstrated great communicative skills and ensured smooth interaction throughout all development and implementation stages, suggesting articulate and consistent decisions and viable solutions for our project.Prime ensured fast finalization of our project and fully met our expectations, concerning the time to bring the new features to our clients. We won't hesitate to turn to Prime services again and hope for further fruitful collaboration.",
       author: "Ruwan Weerasuriya",
       position: "Air Resources Management Center, Sri Lanka",
@@ -164,10 +156,10 @@ export default function HomePage() {
       {[
         "logo1.png",
         "logo2.png",
-        "logo3.jpg",
+        "logo3.png",
         "logo4.png",
         "logo5.png",
-        "logo6.jpg",
+        "logo6.png",
         "logo7.png",
         "logo8.png",
         "logo9.png",
@@ -216,9 +208,9 @@ export default function HomePage() {
         "customer7.png",
         "customer8.png",
         "customer9.png",
-        "customer10.webp",
-        "customer11.jpeg",
-        "customer12.jpg",
+        "customer10.png",
+        "customer11.png",
+        "customer12.png",
       ].map((logo, i) => (
         <div
           key={i}
@@ -238,9 +230,9 @@ export default function HomePage() {
 
       {/* Testimonials Section */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">What Our Clients Say</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
             {testimonials.map((testimonial, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow flex flex-col">
                 <CardContent className="p-8 flex flex-col flex-grow">

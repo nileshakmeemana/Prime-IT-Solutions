@@ -4,35 +4,40 @@ import { Building2 } from "lucide-react"
 export default function OurCompaniesPage() {
   const companies = [
     {
-      name: "Prime Engineering Lanka Pvt Ltd",
+      name: "Prime Engineering Lanka (PVT) LTD",
       description: "Engineering solutions and infrastructure development services",
       focus: "Engineering & Infrastructure",
     },
     {
-      name: "Prime Teleservice Pvt Ltd",
+      name: "Prime Teleservice (PVT) LTD",
       description: "Telecommunications and telecom infrastructure services",
       focus: "Telecommunications",
     },
     {
-      name: "Prime Holiday",
-      description: "Travel and hospitality services for corporate and leisure clients",
-      focus: "Travel & Hospitality",
-    },
-    {
-      name: "Prime IT Solutions Pvt Ltd",
+      name: "Prime IT Solutions (PVT) LTD",
       description: "Comprehensive IT solutions, consulting, and technology services",
       focus: "Information Technology",
     },
     {
-      name: "PELa Ceylon Teas",
-      description: "Premium tea production and export services",
-      focus: "Agriculture & Export",
+      name: "Prime Engineering Automation (PVT) LTD",
+      description: "Engineering automation solutions and services",
+      focus: "Engineering & Automation",
     },
     {
-      name: "Prime Telecom Skill Development Center",
-      description: "Professional training and skill development in telecommunications and IT",
+      name: "Prime Academy (PVT) LTD",
+      description: "Professional training and skill development in various fields",
       focus: "Education & Training",
     },
+    {
+      name: "Prime Holidays (PVT) LTD",
+      description: "Travel and hospitality services for corporate and leisure clients",
+      focus: "Travel & Hospitality",
+    },
+    {
+      name: "PELa Ceylon Teas (PVT) LTD",
+      description: "Premium tea production and export services",
+      focus: "Agriculture & Export",
+    },  
   ]
 
   return (
